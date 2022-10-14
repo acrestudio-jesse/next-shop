@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  font-size: 1.6rem;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.title {
+  font-size: 3.6rem;
+}
+
+.navList {
+  display: flex;
+  gap: 2.4rem;
+  list-style-type: none;
+}
+
+.navLink {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.navLink:hover {
+  color: aquamarine;
+}

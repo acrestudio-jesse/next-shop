@@ -1,0 +1,15 @@
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 25vw);
+}
+
+.imageContainer {
+  width: 25vw;
+  height: 35vh;
+  position: relative;
+}
+
+.image{
+    object-fit: cover;
+
+}
